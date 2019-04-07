@@ -1,0 +1,88 @@
+/* index.html */
+
+* {
+  font-family: verdana, arial, eurpoa, sans-serif;
+}
+.jumbotron {
+
+ /* get the background image working... for now it is a sky blue
+  background-image: url(../img/landscape.jpg);
+  background-size: cover; */
+
+  background-color: #9933FF;
+  color: white;
+  margin-top: 0;
+  padding-left: 15px;
+  font: courier;
+
+
+}
+
+.container {
+  margin-top: 10px;
+  padding-left: 30px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+body {
+  background-color: #F1F0FF;
+}
+
+/* i cannot find this one (logo) on the html... - is now _ */
+
+.col_icon {
+  padding-top: 20px;
+  width: 40px;
+  align: center;
+}
+
+.col-md-4 {
+  height: 450px;
+  padding-left: 20px;
+  border: 2px dotted silver;
+  border-radius: 20px;
+}
+
+.col-md-4 p, h2, ul {
+  text-align: center;
+}
+
+.col_title {
+  color: #4D0F28;
+}
+
+.list_title {
+  color: #9933FF;
+}
+
+.bulletless {
+  list-style-type: none;
+}
+
+#navbar {
+  background-color: #333; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#skronny {
+  margin:
+}
