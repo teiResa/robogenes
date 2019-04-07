@@ -3,19 +3,13 @@
 * {
   font-family: verdana, arial, eurpoa, sans-serif;
 }
+
 .jumbotron {
-
- /* get the background image working... for now it is a sky blue
-  background-image: url(../img/landscape.jpg);
-  background-size: cover; */
-
   background-color: #9933FF;
   color: white;
   margin-top: 0;
   padding-left: 15px;
   font: courier;
-
-
 }
 
 .container {
@@ -28,8 +22,6 @@
 body {
   background-color: #F1F0FF;
 }
-
-/* i cannot find this one (logo) on the html... - is now _ */
 
 .col_icon {
   padding-top: 20px;
@@ -44,6 +36,9 @@ body {
   border-radius: 20px;
 }
 
+/* still trying to fix the alignment of anything in the col-md-4 
+    I'm not a fan of the way the list is off to the right side
+            related to .bulletless class */
 .col-md-4 p, h2, ul {
   text-align: center;
 }
@@ -60,19 +55,22 @@ body {
   list-style-type: none;
 }
 
+/* NOT A FAN of the scroll down. stops working, doesnt disappear */
+
 #navbar {
-  background-color: #333; /* Black background color */
+  background-color: #333;
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
-  width: 100%; /* Full width */
+  width: 100%; 
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
+
 
 /* Style the navbar links */
 #navbar a {
   float: left;
   display: block;
-  color: white;
+  color: #9933FF;
   text-align: center;
   padding: 15px;
   text-decoration: none;
