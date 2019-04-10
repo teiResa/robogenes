@@ -34,6 +34,9 @@ body {
 }
 
 .col-md-4 {
+
+
+
   height: 450px;
   padding-left: 20px;
   border: 2px dotted silver;
@@ -43,6 +46,7 @@ body {
 /* still trying to fix the alignment of anything in the col-md-4
     I'm not a fan of the way the list is off to the right side
             related to .bulletless class */
+
 .col-md-4 p, h2, ul {
   text-align: center;
 }
@@ -57,6 +61,8 @@ body {
 
 .bulletless {
   list-style-type: none;
+  padding-left: 0;
+
 }
 
 /* NOT A FAN of the scroll down. stops working, doesnt disappear */
