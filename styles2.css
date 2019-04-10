@@ -28,16 +28,14 @@ body {
 }
 
 .col_icon {
-  padding-top: 20px;
   width: 40px;
-  align: center;
+  display: block;
+  margin: auto;
 }
 
 .col-md-4 {
-
-
-
   height: 450px;
+  padding-top: 20px;
   padding-left: 20px;
   border: 2px dotted silver;
   border-radius: 20px;
