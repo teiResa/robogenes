@@ -4,6 +4,10 @@
   font-family: verdana, arial, eurpoa, sans-serif;
 }
 
+.body_container {
+  margin-top: 10px;
+}
+
 .jumbotron {
   background-color: #9933FF;
   color: white;
@@ -36,7 +40,7 @@ body {
   border-radius: 20px;
 }
 
-/* still trying to fix the alignment of anything in the col-md-4 
+/* still trying to fix the alignment of anything in the col-md-4
     I'm not a fan of the way the list is off to the right side
             related to .bulletless class */
 .col-md-4 p, h2, ul {
@@ -59,10 +63,10 @@ body {
 
 #navbar {
   background-color: #333;
-  position: fixed; /* Make it stick/fixed */
-  /* top: 0;  Stay on top */
-  right: 0;
-  width: 100%; 
+  position: absolute; /* Make it stick/fixed */
+  height: 50px;
+  top: 0;
+  width: 100%;
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
