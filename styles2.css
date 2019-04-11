@@ -8,23 +8,44 @@
   margin-top: 10px;
 }
 
+body {
+  background-color: #F1F0FF;
+}
+
 .jumbotron {
   background-color: #9933FF;
-  color: white;
+  color: #F1F0FF;
   margin-top: 0;
   padding-left: 15px;
   font: courier;
+  border-radius: 20px;
 }
 
-.container {
+.jumbotron_container {
   margin-top: 10px;
   padding-left: 30px;
+  padding-right: 30px;
   width: 100%;
   border-radius: 20px;
 }
 
-body {
-  background-color: #F1F0FF;
+.jumbotron_container p {
+  padding-left: 20px;
+}
+
+
+.rows_container {
+  align-content: center;
+  width: 100%;
+  padding-left: 90px;
+  padding-right: -20px;
+
+}
+
+.row {
+  align-content: center;
+  padding: 10px -20px 10px 40px;
+  width: 100%;
 }
 
 .col_icon {
@@ -35,15 +56,14 @@ body {
 
 .col-md-4 {
   height: 450px;
+  width: 30%;
   padding-top: 20px;
-  padding-left: 20px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: ;
   border: 2px dotted silver;
   border-radius: 20px;
 }
-
-/* still trying to fix the alignment of anything in the col-md-4
-    I'm not a fan of the way the list is off to the right side
-            related to .bulletless class */
 
 .col-md-4 p, h2, ul {
   text-align: center;
@@ -72,6 +92,8 @@ body {
 
 }
 
+
+/* NAVBAR */
 #navbar {
   background-color: #333;
   position: absolute; /* Make it stick/fixed */
@@ -81,8 +103,6 @@ body {
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
-
-/* Style the navbar links */
 #navbar a {
   float: left;
   display: block;
