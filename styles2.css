@@ -60,10 +60,17 @@ body {
 .bulletless {
   list-style-type: none;
   padding-left: 0;
-
 }
 
-/* NOT A FAN of the scroll down. stops working, doesnt disappear */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:active {
+
+}
 
 #navbar {
   background-color: #333;
