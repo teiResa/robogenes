@@ -138,8 +138,22 @@ body {
 
 #right_navbar a {
   color: #9933FF;
+  background-color: #333;
   text-decoration: none;
 }
+
+/* temp fix
+      https://getbootstrap.com/docs/4.1/components/buttons/
+*/
+      #btn-outline-light {
+        background-color: #333;
+      }
+
+      #btn-outline-light:hover {
+        background-color: #9933FF;
+      }
+
+/* temp fix end */
 
 #navbar a:hover {
   background-color: #9933FF;
