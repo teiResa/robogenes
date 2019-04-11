@@ -4,41 +4,67 @@
   font-family: verdana, arial, eurpoa, sans-serif;
 }
 
-.jumbotron {
-  background-color: #9933FF;
-  color: white;
-  margin-top: 0;
-  padding-left: 15px;
-  font: courier;
-}
-
-.container {
+.body_container {
   margin-top: 10px;
-  padding-left: 30px;
-  width: 100%;
-  border-radius: 20px;
 }
 
 body {
   background-color: #F1F0FF;
 }
 
+.jumbotron {
+  background-color: #9933FF;
+  color: #F1F0FF;
+  margin-top: 0;
+  padding-left: 15px;
+  font: courier;
+  border-radius: 20px;
+}
+
+.jumbotron_container {
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.jumbotron_container p {
+  padding-left: 20px;
+}
+
+
+.rows_container {
+  align-content: center;
+  width: 100%;
+  padding-left: 90px;
+  padding-right: -20px;
+
+}
+
+.row {
+  align-content: center;
+  padding: 10px -20px 10px 40px;
+  width: 100%;
+}
+
 .col_icon {
-  padding-top: 20px;
   width: 40px;
-  align: center;
+  display: block;
+  margin: auto;
 }
 
 .col-md-4 {
   height: 450px;
-  padding-left: 20px;
+  width: 30%;
+  padding-top: 20px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: ;
   border: 2px dotted silver;
   border-radius: 20px;
 }
 
-/* still trying to fix the alignment of anything in the col-md-4 
-    I'm not a fan of the way the list is off to the right side
-            related to .bulletless class */
 .col-md-4 p, h2, ul {
   text-align: center;
 }
@@ -53,20 +79,57 @@ body {
 
 .bulletless {
   list-style-type: none;
+  padding-left: 0;
 }
 
-/* NOT A FAN of the scroll down. stops working, doesnt disappear */
+.button {
+  background-color: #F1F0FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  padding-left: 30%;
+  position: absolute;
+  bottom: 0;
+}
 
+.button a:hover {
+  background-color: #9933FF;
+  color: white;
+}
+
+/* okay, I cheated, sure. but dashed this small looks dotted so IDGAF */
+.button a {
+  color: #9933FF;
+  background-color: #F1F0FF;
+  border-style: dashed;
+}
+
+.button:active {
+
+}
+
+/* NAVBAR */
 #navbar {
   background-color: #333;
-  position: fixed; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: 100%; 
+  position: absolute; /* Make it stick/fixed */
+  height: 50px;
+  top: 0;
+  width: 100%;
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
+#right_navbar {
+  /* get background colour to match navbar */
+  background-color: #333;
+  top: 0;
+  right: 0;
+  padding-top: 7px;
+  padding-right: 15px;
+  position: absolute;
+  transition: top 0.3s;
+}
 
-/* Style the navbar links */
 #navbar a {
   float: left;
   display: block;
@@ -76,9 +139,35 @@ body {
   text-decoration: none;
 }
 
+#right_navbar a {
+  color: #9933FF;
+  background-color: #333;
+  text-decoration: none;
+}
+
+/* temp fix
+      https://getbootstrap.com/docs/4.1/components/buttons/
+*/
+      #btn-outline-light {
+        background-color: #333;
+      }
+
+      #btn-outline-light:hover {
+        background-color: #9933FF;
+      }
+
+/* temp fix end */
+
 #navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #9933FF;
+  color: white;
+}
+
+/* make right_navbar more like the other navbar buttons.. but in the shape it is now */
+
+#right_navbar a:hover {
+  background-color: #9933FF;
+  color: white;
 }
 
 #skronny {
