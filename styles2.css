@@ -87,7 +87,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  padding-bottom: 15px;
+  padding-left: 30%;
+  position: absolute;
+  bottom: 0;
 }
 
 .button a:hover {
