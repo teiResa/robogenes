@@ -112,9 +112,11 @@ body {
 /* NAVBAR */
 #navbar {
   background-color: #333;
+
   position: absolute; /* Make it stick/fixed */
   height: 50px;
   top: 0;
+
   width: 100%;
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
@@ -172,4 +174,29 @@ body {
 
 #skronny {
   margin:
+}
+
+#footer {
+  background-color: #9933FF;
+  color: #F1F0FF;
+  height: 180px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 20px; /* confirm this one */
+
+  text-align: center;
+
+}
+
+#center_upper{
+  padding-top: 25px;
+}
+#center_upper img {
+  width: 60px;
+  align-self: center;
+}
+
+#center_lower {
+  padding-top: 30px;
+  opacity: 75%;
 }
