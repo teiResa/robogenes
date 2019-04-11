@@ -88,7 +88,7 @@ body {
 #footer {
   background-color: #9933FF;
   color: #F1F0FF;
-  height: 210px;
+  height: 180px;
   margin-left: 30px;
   margin-right: 30px;
   border-radius: 20px; /* confirm this one */
@@ -98,7 +98,7 @@ body {
 }
 
 #center_upper{
-  padding-top: 45px;
+  padding-top: 25px;
 }
 #center_upper img {
   width: 60px;
@@ -106,6 +106,6 @@ body {
 }
 
 #center_lower {
-  padding-top: 50px;
+  padding-top: 30px;
   opacity: 75%;
 }
